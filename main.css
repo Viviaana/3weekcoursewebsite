@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Amita|Karla&display=swap');
+
+body {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-size: 83%;
+    background-color: #FADDFB;
+    
+  }
+
+  .bodyAboutMe {
+    background-size: 700px auto;
+    background-image: url("mech.gif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-color: #EBE9EC;
+  }
+
+.transparent { 
+        background-color: rgba(255,245,245, 0.8);
+        box-sizing: border-box;
+        padding: 25px 100px 25px 75px;
+        margin:30px 125px 20px 75px; 
+     
+    }
+
+h1 {
+  font-family: 'Amita', cursive;
+}
+
+p, h3, a {
+    font-family: 'Karla', sans-serif;
+}
+
+.introPage {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 100px 750px 25px 25px;
+    border:25px; 
+}
+.navibar {
+    background-color:#FADDFB;
+    overflow: hidden;
+  }
+  
+.navibar a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.navibar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.navibar a.active {
+    background-color: #4CAF50;
+    color: black;
+}
+
+.navibarAM {
+  background-color:#EBE9EC;
+  overflow: hidden;
+}
+
+.navibarAM a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navibarAM a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navibarAM a.active {
+  background-color: #4CAF50;
+  color: black;
+}
+
+.container {
+  display:flex;
+  flex-direction:row;
+  background-color: rgba(255,245,245, 0.8);
+  margin:30px 125px 20px 75px;
+}
+
+.header{
+  justify-content: center;
+}
+
+.flexImg {
+    width: 20%;
+    padding:15px;
+  }
+
+.flexText {
+    width:80%;
+    text-align: center;
+    padding:20px;
+    font-size: 19px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  .imgSize {
+    max-width:100%;
+  }
